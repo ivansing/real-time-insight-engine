@@ -1,4 +1,4 @@
-import 'dotenv/config'
+import 'dotenv-flow/config'
 import { neon } from '@neondatabase/serverless';
 
 const DATABASE_URL = process.env.DATABASE_URL;

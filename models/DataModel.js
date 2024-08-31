@@ -1,5 +1,4 @@
 import Database from "../config/db.js";
-import ErrorHandling from "../utils/ErrorHandling.js";
 
 export default class DataModel {
     constructor() {

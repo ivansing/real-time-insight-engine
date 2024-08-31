@@ -4,7 +4,7 @@ import DataController from '../controllers/DataController.js';
 export default class DataRoutes {
     constructor() {
         this.router = express.Router();
-        this.dataController = new DataController(); // Initialize DataController
+        this.dataController = new DataController();
         this.initializeRoutes();
     }
 
